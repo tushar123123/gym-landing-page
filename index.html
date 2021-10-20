@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The GYM</title>
+</head>
+<style>
+    body{
+        color: white;
+        margin: 0;
+        padding: 0;
+        background: url(img.webp);
+
+    }
+    .left{
+display: inline-block;
+
+position: absolute;
+left: 30px;
+top: 20px;
+    }
+    .left img{
+        width: 40px;
+        height: 40px;
+        filter: invert(100%);
+        padding: 5px;
+    }
+    .left div{
+        text-align: center;
+        font-size: 12px;
+    }
+    .mid{
+display: block;
+width: 44%;
+margin: 20px auto;
+
+    }
+    .right{
+        position: absolute;
+right: 20px;
+top: 20px;
+
+    }
+     .btn{
+         background-color: black;
+         margin: 8px 5px;
+         padding: 5px;
+         border-radius: 10px;
+         color: white;
+         font-size: 12px;
+     }
+     .btn:hover{
+         background-color: grey;
+         color: beige;
+     }
+    ul li{
+    display: inline-block;
+    }
+    ul li a{
+        color: white;
+        margin: 20px 20px;
+        text-decoration: none;
+        padding: 5px;
+    }
+    ul li a:hover{
+       background-color: grey;
+       border-radius: 5px;
+    }
+</style>
+<body>
+    <header id="header">
+        <div class="left">
+            <img src="img/logo.png" alt="logo">
+            <div>TheGym</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li>
+                <a href="#">Home</a>
+                </li>
+                <li><a href="#">AboutUs</a></li>
+                <li><a href="#">ContactUs</a></li>
+                <li><a href="#">Tips</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">mailUs</button>
+            <button class="btn">contactUs</button>
+        </div>
+    </header>
+    
+</body>
+</html>
